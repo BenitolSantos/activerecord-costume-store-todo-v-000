@@ -40,7 +40,11 @@ ActiveRecord::Schema.define(version: 3) do
     t.boolean "family_friendly"
     t.string  "opening_date"
     t.string  "closing_date"
+<<<<<<< HEAD
     t.string  "description"
+=======
+    t.string  "long_description"
+>>>>>>> 6bdc924efa6cd774a55474aaa238aa7cf6b1a0de
   end
 
 end
